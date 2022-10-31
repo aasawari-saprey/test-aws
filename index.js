@@ -28,3 +28,4 @@ app.use("*", (req, res, next) => {
 
   app.use('/user', userRoute);
   app.use('/project', projectRoute);
+  app.listen(3000, () => console.log("listening on port "))
