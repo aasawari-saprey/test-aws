@@ -6,8 +6,8 @@ port = process.env.port || 3000;
 
 const db = require ('./db');
 
-const userRoute = require('./routes/user');
-const projectRoute= require ('./routes/project');
+const userRoute = require('./user');
+const projectRoute= require ('./project');
 
 app.listen(port,function(){
     console.log("Running Sucessfully");
