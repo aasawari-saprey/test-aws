@@ -2,7 +2,7 @@ const express = require ('express');
 
 const app = express();
 
-port = process.env.port || 3000;
+port = 3000;
 
 const db = require ('./db');
 
